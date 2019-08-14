@@ -1,0 +1,272 @@
+C:\Users\노종근\PycharmProjects\untitled\venv\Scripts\python.exe "C:\Program Files\JetBrains\PyCharm 2019.2\helpers\pydev\pydevconsole.py" --mode=client --port=54078
+import sys; print('Python %s on %s' % (sys.version, sys.platform))
+sys.path.extend(['D:/'])
+PyDev console: starting.
+Python 3.7.4 (tags/v3.7.4:e09359112e, Jul  8 2019, 19:29:22) [MSC v.1916 32 bit (Intel)] on win32
+60*60
+3600
+seconds_per_hours=3600
+seconds_per_hours=a
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'a' is not defined
+seconds_per_hours=3600
+seconds_per_hours
+3600
+seconds_per_hours *24
+86400
+seconds_per_hours *24 =seconds_per_days
+  File "<input>", line 1
+SyntaxError: can't assign to operator
+seconds_per_hours *24
+86400
+seconds_per_hours *24
+86400
+seconds_per_days=seconds_per_hours *24
+seconds_per_days/seconds_per_hours
+24.0
+seconds_per_days/seconds_per_hours \r
+  File "<input>", line 1
+    seconds_per_days/seconds_per_hours \r
+                                        ^
+SyntaxError: unexpected character after line continuation character
+seconds_per_days/seconds_per_hours \s
+  File "<input>", line 1
+    seconds_per_days/seconds_per_hours \s
+                                        ^
+SyntaxError: unexpected character after line continuation character
+seconds_per_days/seconds_per_hours\r
+  File "<input>", line 1
+    seconds_per_days/seconds_per_hours\r
+                                       ^
+SyntaxError: unexpected character after line continuation character
+seconds_per_days/seconds_per_hours\e
+  File "<input>", line 1
+    seconds_per_days/seconds_per_hours\e
+                                       ^
+SyntaxError: unexpected character after line continuation character
+seconds_per_days/seconds_per_hours%i
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'i' is not defined
+%iseconds_per_days/seconds_per_hours
+  File "<input>", line 1
+    %iseconds_per_days/seconds_per_hours
+    ^
+SyntaxError: invalid syntax
+%i(seconds_per_days/seconds_per_hours)
+  File "<input>", line 1
+    %i(seconds_per_days/seconds_per_hours)
+    ^
+SyntaxError: invalid syntax
+import this
+The Zen of Python, by Tim Peters
+Beautiful is better than ugly.
+Explicit is better than implicit.
+Simple is better than complex.
+Complex is better than complicated.
+Flat is better than nested.
+Sparse is better than dense.
+Readability counts.
+Special cases aren't special enough to break the rules.
+Although practicality beats purity.
+Errors should never pass silently.
+Unless explicitly silenced.
+In the face of ambiguity, refuse the temptation to guess.
+There should be one-- and preferably only one --obvious way to do it.
+Although that way may not be obvious at first unless you're Dutch.
+Now is better than never.
+Although never is often better than *right* now.
+If the implementation is hard to explain, it's a bad idea.
+If the implementation is easy to explain, it may be a good idea.
+Namespaces are one honking great idea -- let's do more of those!
+seconds_per_days//seconds_per_hours
+24
+coffee=4100
+juice=4600
+tea=3900
+a= coffee*3+juice*2+tea
+a
+25400
+b= coffee*3+juice*4+tea*3
+b
+42400
+%seconds_per_days/seconds_per_hoursi
+  File "<input>", line 1
+    %seconds_per_days/seconds_per_hoursi
+    ^
+SyntaxError: invalid syntax
+a
+25400
+b
+42400
+Year_list=[1980,1981,1982,1983,1984,1985]
+Year_list[4]
+1984
+Year_list[3]
+1983
+Year_list[3]
+1983
+Year_list[-1]
+1985
+things = ["God","Jesus","Holy"]
+things = ["God","Jesus","holy","sin"]
+things[0].upper()
+'GOD'
+things[1].lower()
+'jesus'
+things[2].capitalize()
+'Holy'
+things
+['God', 'Jesus', 'holy', 'sin']
+things[0].replace(things[0],things[0].upper())
+'GOD'
+things
+['God', 'Jesus', 'holy', 'sin']
+things[0]=things[0].upper()
+things
+['GOD', 'Jesus', 'holy', 'sin']
+things.pop(-1)
+'sin'
+things
+['GOD', 'Jesus', 'holy']
+surprise = ["Belief","Hope","Love"]
+surprise
+['Belief', 'Hope', 'Love']
+surprise[-1] = surprise[-1].lower()
+surprise[-1] = surprise[-1].capitalize()
+surprise
+['Belief', 'Hope', 'Love']
+e2f={dog:chien,cat:chat,walrus:morse}
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'dog' is not defined
+e2f={'dog':'chien', 'cat':'chat', 'walrus':'morse'}
+e2f
+{'dog': 'chien', 'cat': 'chat', 'walrus': 'morse'}
+value.e2f[-1]
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'value' is not defined
+e2f[-1].value
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+KeyError: -1
+e2f[-1]
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+KeyError: -1
+e2f{-1}
+  File "<input>", line 1
+    e2f{-1}
+       ^
+SyntaxError: invalid syntax
+e2f['walrus']
+'morse'
+e2f[3] : {cross:dd}
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'cross' is not defined
+e2f[cross]='dd'
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'cross' is not defined
+e2f['cross']='dd'
+e2f
+{'dog': 'chien', 'cat': 'chat', 'walrus': 'morse', 'cross': 'dd'}
+e2f['cross']='croix'
+del e2f['dog']
+etf
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+NameError: name 'etf' is not defined
+e2f
+{'cat': 'chat', 'walrus': 'morse', 'cross': 'croix'}
+e2f.keys()
+dict_keys(['cat', 'walrus', 'cross'])
+list(e2f.keys())
+['cat', 'walrus', 'cross']
+list
+<class 'list'>
+prices = []
+temps= [32.0, 212.0, 0.0, 81.6,100.0,45.3]
+words = ['hello', 'world']
+car_details = ['Toyota', 21]
+vowels= ['a','e','i','o','u']
+len(vowels)
+5
+found=[]
+len(found)
+0
+found.append('a')
+found
+['a']
+found.append('e')
+found.append('i')
+found.append('o')
+len(found)
+4
+found
+['a', 'e', 'i', 'o']
+if 'u' not in found:
+    found.append('u')
+    
+found
+['a', 'e', 'i', 'o', 'u']
+if 'u' in found:
+    del. found('u')
+    
+  File "<input>", line 2
+    del. found('u')
+       ^
+SyntaxError: invalid syntax
+nums=[1,2,3,4]
+nums.remove(3)
+nums
+[1, 2, 4]
+nums.pop()
+4
+nums
+[1, 2]
+nums.pop(0)
+1
+nums.extend([3,4])
+nums
+[2, 3, 4]
+nums.insert(0,1)
+nums
+[1, 2, 3, 4]
+nums.insert(2,"two-and-a-half")
+nums
+[1, 2, 'two-and-a-half', 3, 4]
+person3 = {'Name', 'Ford Prefect' ,
+           'Gender' , 'Male' ,
+           'Occupation' , 'ddd'}
+person3['Name']
+Traceback (most recent call last):
+  File "<input>", line 1, in <module>
+TypeError: 'set' object is not subscriptable
+person3
+{'Ford Prefect', 'Gender', 'Occupation', 'ddd', 'Male', 'Name'}
+person3 = {'Name' :'Ford Prefect' ,
+           'Gender' : 'Male' ,
+           'Occupation' : 'ddd'}
+person3['Name']
+'Ford Prefect'
+person3['age'] = 33
+person3
+{'Name': 'Ford Prefect', 'Gender': 'Male', 'Occupation': 'ddd', 'age': 33}
+found={}
+found['a']=0
+found['e']=0
+found['i']=0
+found['o']=0
+found['u']=0
+found
+{'a': 0, 'e': 0, 'i': 0, 'o': 0, 'u': 0}
+found['e'] = found['e']+1
+found
+{'a': 0, 'e': 1, 'i': 0, 'o': 0, 'u': 0}
+found['e'] +=1
+found
+{'a': 0, 'e': 2, 'i': 0, 'o': 0, 'u': 0}
